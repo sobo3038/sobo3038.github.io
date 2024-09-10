@@ -6,7 +6,36 @@ body {
     color: #333;
 }
 
-/* Header styling */
+/* Cool background gradient or image */
+.intro-section {
+    background: linear-gradient(to right, #6dd5fa, #2980b9); /* Cool gradient */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro-section .intro-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+/* Header and Navigation styling */
 header {
     background-color: #333;
     padding: 15px 0;
@@ -32,59 +61,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #6dd5fa; /* Hover effect */
     text-decoration: underline;
-}
-
-/* Intro Section with centered heading */
-.intro-section {
-    background-color: #f39c12;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-    min-height: 200px;
-}
-
-.intro-section h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-.intro-section p {
-    font-size: 1.5em;
-}
-
-/* Info Grid layout for the boxes */
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Each box for images and text */
-.info-box {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-}
-
-.info-box img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.info-box h2 {
-    margin-top: 15px;
-    font-size: 1.8em;
-    color: #2980b9;
-}
-
-.info-box p {
-    font-size: 1.2em;
-    line-height: 1.6;
 }
 
 /* Make the footer smaller */
