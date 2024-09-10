@@ -1,31 +1,42 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work Experience - Sofia Boada</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Work Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <nav class="flex justify-center space-x-8">
-            <a class="text-gray-700 hover:text-blue-500" href="index.html">About Me</a>
-            <a class="text-gray-700 hover:text-blue-500" href="work-experience.html">Work Experience</a>
-            <a class="text-gray-700 hover:text-blue-500" href="projects.html">Projects</a>
-            <a class="text-gray-700 hover:text-blue-500" href="contact.html">Contact</a>
-            <a class="text-gray-700 hover:text-blue-500" href="assignments.html">Assignments</a>
-        </nav>
-        
-    </header>
+<body class="bg-blue-100">
+    <!-- Header bar -->
+    <div class="bg-white py-4 shadow-md">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-center space-x-8">
+                <a class="text-gray-700 hover:text-blue-500" href="#">About Me</a>
+                <a class="text-gray-700 hover:text-blue-500" href="#">Work Experience</a>
+                <a class="text-gray-700 hover:text-blue-500" href="#">Projects</a>
+                <a class="text-gray-700 hover:text-blue-500" href="#">Contact</a>
+                <a class="text-gray-700 hover:text-blue-500" href="#">Assignments</a>
+            </nav>
+        </div>
+    </div>
 
-    <main>
-        <h1>Work Experience</h1>
-        <p><strong>Summer Analyst at Accenture in the Technology Development Program</strong></p>
-        <p>I worked on integrating Large Language Models with Knowledge Graphs, contributing to client workshops, and developing POCs in the automotive industry.</p>
+    <main class="container mx-auto px-4 mt-12">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">Work Experience</h1>
+
+        <div class="bg-white rounded-lg shadow-md p-6 max-w-2xl mx-auto">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">JOB TITLE</h2>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>What I did at this job</li>
+                <li>Another responsibility or achievement</li>
+                <li>One more bullet point about my experience</li>
+            </ul>
+        </div>
     </main>
-
-    <footer>
-        <p>© 2024 Sofia Boada</p>
-    </footer>
 </body>
 </html>
