@@ -34,13 +34,13 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Intro Section with centered heading */
+/* Light blue intro section */
 .intro-section {
-    background-color: #f39c12;
+    background-color: #add8e6; /* Light blue color */
     color: white;
     padding: 60px 20px;
     text-align: center;
-    min-height: 200px;
+    min-height: 150px;
 }
 
 .intro-section h1 {
@@ -48,46 +48,46 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-.intro-section p {
+/* Section for sentence below the colored box */
+.intro-text {
+    text-align: center;
     font-size: 1.5em;
-}
-
-/* Info Grid layout for the boxes */
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-    gap: 20px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
-/* Each box for images and text */
+/* Info Grid layout for vertical boxes and right-aligned images */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Stack the boxes vertically */
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Each info box */
 .info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    text-align: center;
+}
+
+.info-text {
+    max-width: 60%;
 }
 
 .info-box img {
-    max-width: 100%;
+    max-width: 30%;
     border-radius: 10px;
 }
 
-.info-box h2 {
-    margin-top: 15px;
-    font-size: 1.8em;
-    color: #2980b9;
-}
-
-.info-box p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
-
-/* Make the footer smaller */
+/* Footer styling */
 footer {
     font-size: 12px;
     padding: 5px;
