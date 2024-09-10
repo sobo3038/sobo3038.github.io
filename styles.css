@@ -5,6 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header and Navigation styling */
 header {
     background-color: #333;
     color: #fff;
@@ -32,6 +33,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Center the 'About Me' */
+h1 {
+    text-align: center;
+}
+
+/* Main content styling */
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -40,11 +47,13 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Make the footer smaller */
 footer {
-    text-align: center;
-    padding: 20px;
+    font-size: 12px;
+    padding: 5px;
     background-color: #333;
     color: #fff;
+    text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;
